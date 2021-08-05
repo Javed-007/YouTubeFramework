@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.TC8">
+        <methods>
+          <include name="clickLibrary"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC8 -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="ClickOnSubscription"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="CommentOnVideo"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="SubscribeChannel"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="like"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC7">
+        <methods>
+          <include name="WatchLater"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC7 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="trending"/>
+          <include name="BrowserLaunch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="ClickOnHistory"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
